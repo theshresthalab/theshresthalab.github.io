@@ -10377,3 +10377,8 @@ header.teachingMasthead h1 {
 .image-container:hover img {
   filter: brightness(30%);
 }
+.item-paragraph {
+  margin-top: 10px; /* add a 10px margin to the top of the paragraph */
+  margin-left: 20px;
+  margin-right: 20px;
+}
