@@ -596,18 +596,23 @@ pre code {
   font-size: 75%;
   text-justify: auto;
  }
+ .researchText{
+  margin-left:15px;
+  margin-right:15px;
+ }
  h2
  {
   font-size: 200%;
  }
  h3 {
   font-size: 150%;
+  margin-left: 20px;
  }
  col-lg-4 {
   align-self: auto;
  }
 body {
-  font-size: 75%;
+  font-size: 70%;
 }
 div {
   margin-right: 7px;
@@ -618,7 +623,15 @@ div {
   font-size: 9px;
   
 }
+.dropdown-item{
+  position: relative;
 }
+.dropdown {float: none;}
+li {
+  margin-right: 15px;
+}
+}
+
 
 
 
