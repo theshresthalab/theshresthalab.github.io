@@ -569,6 +569,28 @@ pre code {
     max-width: 1140px;
   }
 }
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  padding: 8px;
+  margin-left: 8px;
+ 
+}
+.grid-item {
+  border: 1px solid #808080;
+  font-size: 11px;
+  padding: 15px;
+  text-align: left;
+  margin: 7px;
+  
+}
+.st_image{
+  height: 75px;
+  width: auto;
+  float: left; 
+  margin: 0 20px 0 0;
+
+}
 @media screen and (max-width: 800px) {
  .p {
   font-size: 75%;
@@ -593,21 +615,12 @@ div {
 }
 .grid-container {
   display: block;
-  font-size: 10;
+  font-size: 9px;
+  
 }
 }
 
-.grid-container {
-  display: grid;
-  column-count: 3;
-  padding: 8px;
-  margin-left: 10px;
-}
-.grid-student-item {
-  border: 1px solid black;
-  font-size: 13px;
-  text-align: center;
-}
+
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
@@ -10368,14 +10381,14 @@ header.teachingMasthead h1 {
   justify-content: flex-end;
 }
 
-.grid-container {
+.grid-container-research {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
   width: 99vw;
 }
 
-.grid-item {
+.grid-item-research {
   display: flex;
   justify-content: center;
   align-items: center;
