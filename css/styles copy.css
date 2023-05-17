@@ -553,6 +553,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -572,7 +573,9 @@ pre code {
   .container {
     max-width: 1140px;
   }
+
 }
+
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;

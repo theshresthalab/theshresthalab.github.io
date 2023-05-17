@@ -569,6 +569,45 @@ pre code {
     max-width: 1140px;
   }
 }
+@media screen and (max-width: 800px) {
+ .p {
+  font-size: 75%;
+  text-justify: auto;
+ }
+ h2
+ {
+  font-size: 200%;
+ }
+ h3 {
+  font-size: 150%;
+ }
+ col-lg-4 {
+  align-self: auto;
+ }
+body {
+  font-size: 75%;
+}
+div {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.grid-container {
+  display: block;
+  font-size: 10;
+}
+}
+
+.grid-container {
+  display: grid;
+  column-count: 3;
+  padding: 8px;
+  margin-left: 10px;
+}
+.grid-student-item {
+  border: 1px solid black;
+  font-size: 13px;
+  text-align: center;
+}
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
@@ -10382,4 +10421,19 @@ header.teachingMasthead h1 {
   margin-top: 10px; /* add a 10px margin to the top of the paragraph */
   margin-left: 20px;
   margin-right: 20px;
+}
+.students_table:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.students_column{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border-left-color: #000;
+}
+.st_img{
+  height: 75px;
+  width: auto;
 }
