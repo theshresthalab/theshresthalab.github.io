@@ -591,6 +591,11 @@ pre code {
   margin: 0 20px 0 0;
 
 }
+.sponsors_img{
+  height: 100px;
+  width: auto;
+  alt: "";
+}
 @media screen and (max-width: 800px) {
  .p {
   font-size: 75%;
@@ -629,6 +634,9 @@ div {
 .dropdown {float: none;}
 li {
   margin-right: 15px;
+}
+.sponsors_img {
+  height: 60px;
 }
 }
 
