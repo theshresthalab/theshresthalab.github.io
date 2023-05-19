@@ -592,9 +592,10 @@ pre code {
 
 }
 .sponsors_img{
-  height: 100px;
-  width: auto;
+  height: auto;
+  width: 125px;
   alt: "";
+  margin: 25px;
 }
 @media screen and (max-width: 800px) {
  .p {
@@ -636,8 +637,10 @@ li {
   margin-right: 15px;
 }
 .sponsors_img {
-  height: 60px;
+  width: 75px;
+  height: auto;
 }
+
 }
 
 
