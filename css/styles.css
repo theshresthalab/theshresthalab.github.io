@@ -594,8 +594,7 @@ pre code {
 .sponsors_img{
   height: auto;
   width: 125px;
-  alt: "";
-  margin: 25px;
+  margin: 45px;
 }
 @media screen and (max-width: 800px) {
  .p {
@@ -637,8 +636,9 @@ li {
   margin-right: 15px;
 }
 .sponsors_img {
-  width: 75px;
+  width: 55px;
   height: auto;
+  margin: 35px;
 }
 
 }
