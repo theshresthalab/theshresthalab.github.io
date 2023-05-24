@@ -10406,6 +10406,7 @@ header.teachingMasthead h1 {
 }
 
 .grid-container-research {
+  margin-left: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
