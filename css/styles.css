@@ -10009,6 +10009,22 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/* Style for in Data Science Page */
+.data_science_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.data_science_table th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+.data_science_table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
 body,
 html {
   width: 100%;
@@ -10112,7 +10128,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 5.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/homepage.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../assets/img/homepage.png");
   background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
@@ -10348,10 +10364,10 @@ header.teachingMasthead h1 {
   padding-top: -100px;
 }
 
-.bottomright {
+.bottomleft {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
 }
 .direction-rt1{
   direction: 'rt1'
